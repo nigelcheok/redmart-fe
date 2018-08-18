@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Logo from '../images/redmart_logo.png'
+import { Link } from 'react-router-dom'
 
 class NavBar extends Component {
 
@@ -22,10 +23,14 @@ class NavBar extends Component {
     render() {
         return (
             <div className="navbar dark-blue">
-                <img src={window.location.origin + Logo} className="logo" alt="logo"/>
-                <div className="navbar-btn navbar-btn-cart white-text red">
-                    <i className="fas fa-shopping-cart"/> Cart
-                </div>
+                <Link to="/">
+                    <img src={window.location.origin + Logo} className="logo" alt="logo"/>
+                </Link>
+                <Link to="/cart">
+                    <div className="navbar-btn navbar-btn-cart white-text red">
+                        <i className="fas fa-shopping-cart"/> Cart
+                    </div>
+                </Link>
             </div>
         )
     }
