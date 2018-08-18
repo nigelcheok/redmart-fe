@@ -15,7 +15,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    console.log(PRODUCTS_JSON);
+    // console.log(PRODUCTS_JSON);
   };
 
   render() {

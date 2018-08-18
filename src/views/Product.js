@@ -7,7 +7,7 @@ class Product extends Component {
 
     getProduct() {
         const productUrlName = window.location.pathname.split('/')[2];
-        console.log(this.props.products);
+        // console.log(this.props.products);
         let product = this.props.products.filter(product => (this.mapProductNameToUrlName(product) === productUrlName));
         if (product.length) return product[0];
         else return null;

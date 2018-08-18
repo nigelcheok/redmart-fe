@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom'
 class ProductThumbnail extends Component {
     // props: image, name, price
 
-    state = {
-    };
+    state = {};
 
     componentDidMount() {
-        console.log(this.props.product)
+        // console.log(this.props.product)
     };
 
     getProductUrl() {

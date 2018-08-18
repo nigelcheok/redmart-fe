@@ -30,7 +30,7 @@ class Products extends Component {
 
     updateFilters = (filters) => {
         this.setState({ selectedFilters: filters});
-        console.log(this.getFilteredProducts());
+        // console.log(this.getFilteredProducts());
     };
 
     componentDidMount() {

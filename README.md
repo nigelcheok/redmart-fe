@@ -1,5 +1,5 @@
 # Redmart Frontend Assignment
-Browse Products, Product Drilldown Page and Cart
+Browse Products, Product Detail Page and Cart
 
 ## Dependencies and run process 
 This project requires several packages that can be installed using npm.
